@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(45deg, pink,lavender);
+}
+.form-div{
+    margin-bottom: 20px;
+    max-width: 400px;
+    margin: auto;
+    border: 4px groove grey;  
+}
+form{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(135deg,#5bc0de, #3498db);
+}
+form input, textarea{
+    margin: 10px 0px;
+    font-size: 18px;
+    padding: 6px;
+}
+#app{
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: antiquewhite;
+}
+.add-button{
+    margin: 0 auto;
+    padding: 8px 30px;
+    max-width: 250px;
+    border-radius: 20px;
+    border: 0;
+}
+.recipe-card{
+    margin: 20px;
+    padding: 30px;
+    max-height: 400px;
+    display: flex;
+    flex-direction: row;
+    border: 4px solid brown;
+    border-radius: 20px;
+}
+.imageBox img{
+    margin-right: 20px;
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    border: 4px solid white;
+}
+.flex-div{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ .text-div{
+    width: 100%;
+    position: relative;
+} 
+.text-div p{
+    padding: 10px;
+    font-size: 22px;
+    font-weight: 400;
+} 
+.total-no{
+    padding-right: 40px;
+    text-align: end;
+}
+.text-div button{
+    position: absolute;
+    margin: 5px;
+    padding: 5px;
+    font-size: 22px;
+    color: black;
+    background-color: red;
+    border-radius: 8px;
+    bottom: 0;
+    right: 0;
+}
+.red{
+    color: red;
+}
+.green{
+    color: green;
+}
